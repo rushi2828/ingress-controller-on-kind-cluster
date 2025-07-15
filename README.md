@@ -33,7 +33,7 @@ nodes:
 ---
 Then create the cluster:
 ```bash
-kind create cluster --config kind-config.yaml
+kind create cluster --nanme ingress-demo --config kind-config.yaml
 
 ```
 <img width="1408" height="190" alt="image" src="https://github.com/user-attachments/assets/52818a72-3a4b-42a4-86f1-eeba1ccf6c78" />
