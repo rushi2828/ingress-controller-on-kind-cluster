@@ -5,6 +5,8 @@ nodes:
     extraPortMappings:
       - containerPort: 80   # for HTTP
         hostPort: 80
+        protocol: TCP
       - containerPort: 443  # for HTTPS
         hostPort: 443
+        protocol: TCP
 
